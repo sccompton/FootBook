@@ -11,6 +11,6 @@
 @interface DetailViewController : UIViewController
 
 @property (strong, nonatomic) id detailItem;
-
+@property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;
 @property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 @end

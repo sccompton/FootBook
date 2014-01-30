@@ -25,6 +25,8 @@
 		9EC8EEA11899924A005A2393 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC8EE7C1899924A005A2393 /* CoreData.framework */; };
 		9EC8EEA91899924A005A2393 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9EC8EEA71899924A005A2393 /* InfoPlist.strings */; };
 		9EC8EEAB1899924A005A2393 /* FootBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC8EEAA1899924A005A2393 /* FootBookTests.m */; };
+		9EC8EEDD1899D15A005A2393 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC8EEDC1899D15A005A2393 /* Person.m */; };
+		9EC8EEE01899D15A005A2393 /* Profile.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC8EEDF1899D15A005A2393 /* Profile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,10 @@
 		9EC8EEA61899924A005A2393 /* FootBookTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FootBookTests-Info.plist"; sourceTree = "<group>"; };
 		9EC8EEA81899924A005A2393 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9EC8EEAA1899924A005A2393 /* FootBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FootBookTests.m; sourceTree = "<group>"; };
+		9EC8EEDB1899D15A005A2393 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		9EC8EEDC1899D15A005A2393 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		9EC8EEDE1899D15A005A2393 /* Profile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Profile.h; sourceTree = "<group>"; };
+		9EC8EEDF1899D15A005A2393 /* Profile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Profile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +138,10 @@
 				9EC8EE941899924A005A2393 /* DetailViewController.m */,
 				9EC8EE961899924A005A2393 /* Images.xcassets */,
 				9EC8EE8D1899924A005A2393 /* FootBook.xcdatamodeld */,
+				9EC8EEDB1899D15A005A2393 /* Person.h */,
+				9EC8EEDC1899D15A005A2393 /* Person.m */,
+				9EC8EEDE1899D15A005A2393 /* Profile.h */,
+				9EC8EEDF1899D15A005A2393 /* Profile.m */,
 				9EC8EE7F1899924A005A2393 /* Supporting Files */,
 			);
 			path = FootBook;
@@ -265,8 +275,10 @@
 			files = (
 				9EC8EE951899924A005A2393 /* DetailViewController.m in Sources */,
 				9EC8EE921899924A005A2393 /* MasterViewController.m in Sources */,
+				9EC8EEDD1899D15A005A2393 /* Person.m in Sources */,
 				9EC8EE8F1899924A005A2393 /* FootBook.xcdatamodeld in Sources */,
 				9EC8EE891899924A005A2393 /* AppDelegate.m in Sources */,
+				9EC8EEE01899D15A005A2393 /* Profile.m in Sources */,
 				9EC8EE851899924A005A2393 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
